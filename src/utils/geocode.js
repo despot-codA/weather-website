@@ -16,7 +16,7 @@ const geocode = (address, callback) => {
           state: body.data[0].region,
           country: body.data[0].country,
         }); 
-        console.log(body);
+        // console.log(body);
       }
     });
 };

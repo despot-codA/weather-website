@@ -14,7 +14,7 @@ const weatherInfo = ({latitude, longitude}, callback) =>{
           body.current.temperature +
           " degrees out. There is a " +
           body.current.precip +
-          "% chance of rain.")
+          "% chance of rain. The humidity is " + body.current.humidity+".")  
       }
     })
 }
